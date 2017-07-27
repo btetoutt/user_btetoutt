@@ -7,7 +7,6 @@ import org.springframework.stereotype.Service;
 import org.terasoluna.gfw.common.exception.ResourceNotFoundException;
 
 import com.example.terasoluna.domain.model.Account;
-import com.example.terasoluna.domain.model.password.PasschangeForm;
 import com.example.terasoluna.domain.repository.account.AccountRepository;
 
 @Service
@@ -29,8 +28,8 @@ public class AccountService {
 		return account;
 	}
 
-	public void update(PasschangeForm passchangeForm) {
-		accountRespository.update(passchangeForm);
+	public void passupdate(Account account) {
+		accountRespository.passupdate(account);
 	}
 
 	/*

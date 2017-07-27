@@ -4,6 +4,7 @@ encoding//src/main/resources=UTF-8
 encoding//src/main/webapp/WEB-INF/views/login/loginForm.jsp=UTF-8
 encoding//src/main/webapp/WEB-INF/views/password/changeForm.jsp=UTF-8
 encoding//src/main/webapp/WEB-INF/views/password/finish.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/top/menu.jsp=UTF-8
 encoding//src/test/java=UTF-8
 encoding//src/test/resources=UTF-8
 encoding/<project>=UTF-8

@@ -22,19 +22,13 @@
             userid = #{userid}
     </select>
     
-    <update id="update" parameterType="Account">
+    <update id="passupdate" parameterType="Account">
         UPDATE 
-            account
+            t_user
         SET
-            email = #{email},
-            name = #{name},
-            birthday = #{birthday},
-            zip = #{zip},
-            address = #{address},
-            card_number = #{cardNumber},
-            card_expiration_date = #{cardExpirationDate},
-            card_security_code = #{cardSecurityCode}
+            password = #{encodedPassword},
+            status = 'ACTV'
         WHERE
-            id = #{id}
+            userid = #{userid}
     </update>
 </mapper>

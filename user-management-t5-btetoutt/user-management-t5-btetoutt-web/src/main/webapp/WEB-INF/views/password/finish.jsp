@@ -10,7 +10,7 @@
 	<div>
 	    <ul><li>パスワードが変更されました</li></ul>
         <form method="get"
-            action="${pageContext.request.contextPath}/passchange">
+            action="${pageContext.request.contextPath}/password/passchange">
             <input type="submit" name="home" id="home" value="home" />
         </form>
     </div>
